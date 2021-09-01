@@ -1,8 +1,9 @@
 # CountingFingers
 
 
-This project counts the number. With the help of mediapipe, the detection of hand is done. This gives us tips ids or landmarks for each finger, wjich makes counting finger easy.
-In the output the count of finger, FPS and similar image of the count is displayed. The output image is as below:
+This project counts the number of fingers. With the help of mediapipe library, the detection of hand was done. The HandTrackingMin is minimum code written to detect the hand, which is further converted into module --> HandTrackingModule, for the code to be reusable.
+The mediapipe gives us landmarks for each finger, which makes counting of fingers easy.
+In the output, the count of finger, FPS and similar image of the count is displayed. The output image is as below:
 
 <img src = "Outimage/Output.png">
 
